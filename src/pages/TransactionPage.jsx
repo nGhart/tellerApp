@@ -3,7 +3,7 @@ import AllTransactions from "../components/transactions/AllTransactions";
 
 const TransactionPage = () => {
   return (
-    <div>
+    <div className="behind">
       <h1 className="title cen">Transactions</h1>
 
       <div>
