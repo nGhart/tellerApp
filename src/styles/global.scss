@@ -76,9 +76,9 @@ button {
   flex-direction: row;
   align-items: center;
   padding: 10px;
-  z-index: 5;
+  z-index: 50;
   justify-content: space-between;
-  background-color: #ffffffaf;
+  background-color: #ffffff;
   box-shadow: 10px 10px 5px rgb(181, 207, 241);
   // border-radius: 10px;
 }
@@ -110,7 +110,7 @@ button {
   height: 100%;
   font-weight: 700;
   box-shadow: 10px 10px 5px rgb(181, 207, 241);
-  z-index: 5;
+  z-index: 50;
 }
 .menuItems {
   display: flex;
@@ -246,12 +246,12 @@ fieldset {
 }
 .summaryBoxes {
   width: 500px;
-  height: 200px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   text-align: center;
   background-color: #ffffff93;
-  // justify-content: space-around;
+  justify-content: space-evenly;
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgb(163, 152, 197);
   padding: 10px;
@@ -363,4 +363,11 @@ fieldset {
 .title {
   font-size: 30px;
   font-weight: 700;
+}
+.title2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.behind {
+  z-index: -1;
 }
