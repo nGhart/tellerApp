@@ -60,7 +60,7 @@ const AccountsPage = () => {
   }
 
   return (
-    <div>
+    <div className="behind">
       <div>
         <h1 className="title cen">Accounts</h1>
         <TableContainer className="accountTable">
